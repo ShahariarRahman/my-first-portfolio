@@ -1,11 +1,8 @@
 body{
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .header-text{
-    font-family: 'Cinzel', serif;
     font-family: 'Montagu Slab', serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Prata', serif;
     font-size: 27px;
     margin-left:10px ;
 }
@@ -20,4 +17,16 @@ body{
 }
 .header-text-container{
     display: flex;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color:tomato;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+}
+.introduction-text{
+    width: 50%;
+    padding-top: 10%;
+    padding-left: 10%;
 }
