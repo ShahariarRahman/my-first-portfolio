@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.header-text{
+    font-family: 'Cinzel', serif;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-size: 27px;
+    margin-left:10px ;
+}
+.font-orange{
+    color: orange;
+}
+.header-box{
+    margin-top: 40px;
+    height: 125px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+}
+.header-text-container{
+    display: flex;
+}
