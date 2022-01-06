@@ -86,15 +86,16 @@ body{
 .goals{
      background-color:yellow;
 }
-.develop-items{
+.develop-items, .global-community{
     display: flex;
     margin-top: 100px;
+    height: 600px;
 }
 
 #develop-image{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position-x: 50px;
+    background-position-x: 65px;
     background-position-y: 70px;
     background-size: 300px;
     width: 40%;
@@ -111,4 +112,15 @@ body{
     padding-right: 100px;
     width: 50%;
 }
-
+#project{
+    margin-right:200px;
+    width:500px;
+}
+#project-image{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 370px;
+    background-position-y: 340px;
+    background-size: 240px;
+    width: 40%;
+}
