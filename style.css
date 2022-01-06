@@ -5,13 +5,16 @@ body{
     font-size: 24px;
 }
 .header-text{
-    width: 100%;
     font-family: 'Montagu Slab', serif;
     font-size: 80px;
     margin: 0px 0px 0px 15px ;
 }
-.h2-font-size{
+.h2-font{
     font-size: 40px;
+    text-align: center;
+}
+.h3-font{
+    font-size: 30px;
 }
 .font-orange{
     color: orange;
@@ -52,4 +55,32 @@ body{
 .introduction-image img{
     padding-top: 10%;
     width: 80%;
+}
+.mission-boxes{
+    border: 2px solid black;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.box{
+    width:400px;
+    height:400px;
+    border-radius: 30px;
+    padding:2%;
+}
+.box img{
+    height:40%;
+}
+
+.mission{
+     background-color:lightgreen;
+}
+.vision{
+    background-color:darksalmon;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.goals{
+     background-color:yellow;
 }
