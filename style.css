@@ -1,98 +1,119 @@
 body{
-    font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
-.header-text{
+
+/* introduction Section Start */
+.introduction-area-items{
+    display: flex;
+}
+.introduction-texts-items{
+    width: 500px;
+    padding: 100px;
+}
+.main-header-container{
+    display: flex;
+    width: 700px;
+    height: 200px;
+}
+.header-border{
+    border: 3px solid crimson;
+    border-radius: 10px;
+    margin-top:25px ;
+    height: 63%;
+}
+.main-header{
     font-family: 'Montagu Slab', serif;
-    font-size: 80px;
     margin: 0px 0px 0px 15px ;
-}
-.h2-font{
-    font-size: 40px;
-    text-align: center;
-}
-.h3-font{
-    font-size: 50px;
-}
-.h4-font{
-     font-size: 30px;
 }
 .font-orange{
     color: orange;
 }
-.header-border{
-    margin-top:25px ;
-    height: 77%;
-    border: 3px solid crimson;
-    border-radius: 10px;
+.header-1{
+    font-size: 70px;
 }
-.header-text-container{
-    width: 700px;
-    height: 200px;
-    display: flex;
+.header-2{
+    font-size: 40px;
+    text-align: center;
 }
-.button{
+.header-3{
+    font-size: 50px;
+}
+.header-4{
+     font-size: 30px;
+}
+.button-1{
     margin-top:40px ;
     margin-bottom:50px ;
 }
-.button a{
+.button-1 a{
     text-decoration: none;
     color: white;
     background-color:tomato;
-    padding: 15px 50px 15px 50px;
+    padding: 15px 50px;
     font-size: 20px;
     border-radius: 5px;
 }
-.introduction-texts{
-    width: 40%;
-    padding: 10% 0% 0% 10%;
+.button-2{
+    margin-top:90px ;
+    margin-bottom:50px ;
+    text-align: center;
 }
-.introduction-area{
-    display: flex;
+.button-2 a{
+    text-decoration: none;
+    color:black;
+    background-color:rgba(30, 143, 255, 0.644);
+    padding: 15px 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:2px solid rgb(30, 143, 255);
+    font-weight: 900;
 }
-.introduction-image{
-    width: 45%;
+
+.profile-picture{
+    width: 50%;
 }
-.introduction-image img{
-    padding-top: 10%;
-    width: 80%;
+.profile-picture img{
+    padding-top: 100px;
+    width: 600px;
 }
-.mission-boxes{
+
+/* Missions Section Start */
+.missions-boxes-container{
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
 }
-.box{
+.area-of-mission-box{
     width:400px;
     height:400px;
     border-radius: 30px;
     padding:2%;
 }
-.box img{
+.area-of-mission-box img{
     height:40%;
 }
-
-.mission{
+.mission-box{
      background-color:lightgreen;
 }
-.vision{
+.vision-box{
     background-color:darksalmon;
     margin-left: 2%;
     margin-right: 2%;
 }
-
-.goals{
+.goals-box{
      background-color:yellow;
 }
-.develop-items, .global-community{
+
+/* Develop Section Start */
+.develop-area-items, .global-community{
     display: flex;
     margin-top: 100px;
     height: 600px;
 }
-
-#develop-image{
+#develop-image-area{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position-x: 65px;
@@ -100,23 +121,21 @@ body{
     background-size: 300px;
     width: 40%;
 }
-#coding{
+#coding-image{
     margin-left:200px;
     width:500px;
 }
-#Seperate-develop-line{
-    display: block;
-}
-.develop-text-area{
+.develop-text-area,.global-community-text-area{
     padding-left: 100px;
     padding-right: 100px;
     width: 50%;
 }
-#project{
-    margin-right:200px;
-    width:500px;
+#seperate-develop-line, #seperate-gobal-community-line{
+    display: block;
 }
-#project-image{
+
+/* Global Community Section Start */
+#project-image-area{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position-x: 370px;
@@ -124,6 +143,49 @@ body{
     background-size: 240px;
     width: 40%;
 }
+#project-image{
+    margin-right:200px;
+    width:500px;
+}
+
+/* Contact Section Start */
+.contact-boxes-container{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.area-of-contact-box{
+    width:400px;
+    height:400px;
+    padding:2%;
+}
+.area-of-contact-box img{
+    height:40%;
+}
+.gitHub-box{
+    border: 4px solid;
+    border-image:linear-gradient(rgba(0, 0, 255, 0.466),rgba(255, 102, 0, 0.5));
+    border-image-slice: 1;
+    width: 30%;
+}
+.linkedIn-box{
+    
+    border: 4px solid;
+    border-image:linear-gradient(rgba(0, 0, 255, 0.466),rgba(255, 102, 0, 0.5));
+    border-image-slice: 1;
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 30%;
+}
+.facebook-box{
+    border: 4px solid;
+    border-image:linear-gradient(rgba(0, 0, 255, 0.466),rgba(255, 102, 0, 0.5));
+    border-image-slice: 1;
+    width: 30%;
+}
+
+/* Footer Start */
 footer{
     background-color: black;
     color: white;
