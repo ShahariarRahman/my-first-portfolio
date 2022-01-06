@@ -124,3 +124,15 @@ body{
     background-size: 240px;
     width: 40%;
 }
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+}
+footer span{
+    color:crimson;
+}
