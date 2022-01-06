@@ -14,7 +14,10 @@ body{
     text-align: center;
 }
 .h3-font{
-    font-size: 30px;
+    font-size: 50px;
+}
+.h4-font{
+     font-size: 30px;
 }
 .font-orange{
     color: orange;
@@ -57,7 +60,6 @@ body{
     width: 80%;
 }
 .mission-boxes{
-    border: 2px solid black;
     display: flex;
     padding-left: 10%;
     padding-right: 10%;
@@ -84,3 +86,29 @@ body{
 .goals{
      background-color:yellow;
 }
+.develop-items{
+    display: flex;
+    margin-top: 100px;
+}
+
+#develop-image{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 70px;
+    background-size: 300px;
+    width: 40%;
+}
+#coding{
+    margin-left:200px;
+    width:500px;
+}
+#Seperate-develop-line{
+    display: block;
+}
+.develop-text-area{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 50%;
+}
+
