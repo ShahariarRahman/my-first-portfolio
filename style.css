@@ -1,32 +1,53 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
 }
 .header-text{
+    width: 100%;
     font-family: 'Montagu Slab', serif;
-    font-size: 27px;
-    margin-left:10px ;
+    font-size: 80px;
+    margin: 0px 0px 0px 15px ;
+}
+.h2-font-size{
+    font-size: 40px;
 }
 .font-orange{
     color: orange;
 }
-.header-box{
-    margin-top: 40px;
-    height: 125px;
-    border: 2px solid crimson;
+.header-border{
+    margin-top:25px ;
+    height: 77%;
+    border: 3px solid crimson;
     border-radius: 10px;
 }
 .header-text-container{
+    width: 700px;
+    height: 200px;
     display: flex;
 }
 .button{
     text-decoration: none;
     color: white;
     background-color:tomato;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 25px 15px 25px;
     border-radius: 5px;
 }
-.introduction-text{
-    width: 50%;
+.introduction-texts{
+    width: 40%;
+    padding: 10% 0% 0% 10%;
+}
+.introduction-area{
+    display: flex;
+}
+.introduction-image{
+    width: 45%;
+}
+.introduction-image img{
     padding-top: 10%;
-    padding-left: 10%;
+    width: 80%;
+}
+.margin{
+    margin:10px;
 }
