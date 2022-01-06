@@ -210,5 +210,8 @@ footer h1{
     font-family: 'Lobster', cursive;
 }
 footer span{
-    color:crimson;
+    color:rgb(206, 6, 46);
+}
+footer p{
+    font-size: 17px;
 }
