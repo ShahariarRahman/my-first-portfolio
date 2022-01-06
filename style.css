@@ -28,10 +28,15 @@ body{
     display: flex;
 }
 .button{
+    margin-top:40px ;
+    margin-bottom:50px ;
+}
+.button a{
     text-decoration: none;
     color: white;
     background-color:tomato;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 50px 15px 50px;
+    font-size: 20px;
     border-radius: 5px;
 }
 .introduction-texts{
@@ -47,7 +52,4 @@ body{
 .introduction-image img{
     padding-top: 10%;
     width: 80%;
-}
-.margin{
-    margin:10px;
 }
